@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<environment>
+    <!-- General -->
+    <WaitTime>2</WaitTime>
+   <ScreenshotPath>./../allure-screen-shots/</ScreenshotPath>
+ <!--    <ScreenshotPath>./allure-screen-shots/</ScreenshotPath>    -->
+
+    <!-- Web -->
+    <Browser>Chrome</Browser>
+    <Item>Shirt</Item>
+    <Url>https://atid.store/</Url>    <!-- For DB Test This is the URL http://localhost:3000/  For Atid Store https://atid.store/-->
+    <CSV_Location>../ddt/users.csv</CSV_Location>
+  <!-- <CSV_Location>ddt/users.csv</CSV_Location> -->
+    <Execute_Applitools>no</Execute_Applitools>  <!--yes / no-->
+    <Applitools_Key>vFf100mVKI7OgIK6zL5N4F5kaBp4SkvPH5sp0vaJYJReA110</Applitools_Key>
+
+    <!-- Mobile -->
+    <Mobile_device>Android</Mobile_device>
+    <Udid>f0848083</Udid>
+    <App_Package>com.shivgadhia.android.ukMortgageCalc</App_Package>
+    <App_Activity>.MainActivity</App_Activity>
+    <Bundle_ID>.com.shivgadhia.ukMortgageCalc</Bundle_ID>   <!--for apple devices-->
+    <Appium_Server>http://localhost:4730/wd/hub</Appium_Server>
+    <Swipe_Duration>200</Swipe_Duration>
+
+    <!-- API -->
+        <Url_Api>https://reqres.in/</Url_Api>
+    <!-- Electron -->
+
+    <Electron_App>C:/Users/bar/AppData/Local/Programs/todolist/Todolist.exe</Electron_App>
+    <Electron_Driver>C:/Automation/electron/electron-driver/electrondriver.exe</Electron_Driver>
+
+    <!-- Desktop -->
+    <Application_Name>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</Application_Name>
+    <WinAppDriver_Service>http://127.0.0.1:4723</WinAppDriver_Service>
+
+    <!-- Database -->
+        <DB_Host>sql7.freemysqlhosting.net</DB_Host>
+        <DB_Name>sql7612738</DB_Name>
+        <DB_User>sql7612738</DB_User>
+        <DB_Pass>NWUPA8pRXu</DB_Pass>
+
+
+</environment>
